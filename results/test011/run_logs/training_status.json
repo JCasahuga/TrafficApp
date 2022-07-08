@@ -1,0 +1,47 @@
+{
+    "Brake": {
+        "checkpoints": [
+            {
+                "steps": 499937,
+                "file_path": "results\\test011\\Brake\\Brake-499937.onnx",
+                "reward": 0.07938624345339261,
+                "creation_time": 1656934593.9827664,
+                "auxillary_file_paths": [
+                    "results\\test011\\Brake\\Brake-499937.pt"
+                ]
+            },
+            {
+                "steps": 999981,
+                "file_path": "results\\test011\\Brake\\Brake-999981.onnx",
+                "reward": 0.2768346667289734,
+                "creation_time": 1656935158.1668124,
+                "auxillary_file_paths": [
+                    "results\\test011\\Brake\\Brake-999981.pt"
+                ]
+            },
+            {
+                "steps": 1000150,
+                "file_path": "results\\test011\\Brake\\Brake-1000150.onnx",
+                "reward": 0.32185825279780794,
+                "creation_time": 1656935158.2203536,
+                "auxillary_file_paths": [
+                    "results\\test011\\Brake\\Brake-1000150.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000150,
+            "file_path": "results\\test011\\Brake.onnx",
+            "reward": 0.32185825279780794,
+            "creation_time": 1656935158.2203536,
+            "auxillary_file_paths": [
+                "results\\test011\\Brake\\Brake-1000150.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,29 @@
+behaviors: 
+  Brake: 
+    hyperparameters: 
+      batch_size: 256
+      beta: 0.005
+      beta_schedule: constant
+      buffer_size: 1024
+      epsilon: 0.2
+      epsilon_schedule: linear
+      lambd: 0.99
+      learning_rate: 0.0003
+      learning_rate_schedule: linear
+      num_epoch: 3
+    max_steps: 1000000
+    network_settings: 
+      hidden_units: 32
+      normalize: false
+      num_layers: 1
+    reward_signals: 
+      extrinsic: 
+        gamma: 0.99
+        strength: 1.0
+      gail: 
+        demo_path: Assets\Demonstrations\Brake.demo
+        gamma: 0.99
+        strength: 0.25
+    summary_freq: 1000
+    time_horizon: 64
+    trainer_type: ppo

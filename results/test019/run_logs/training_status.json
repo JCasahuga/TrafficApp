@@ -1,0 +1,47 @@
+{
+    "Brake": {
+        "checkpoints": [
+            {
+                "steps": 499991,
+                "file_path": "results\\test019\\Brake\\Brake-499991.onnx",
+                "reward": 0.17246349843648764,
+                "creation_time": 1656959080.0992386,
+                "auxillary_file_paths": [
+                    "results\\test019\\Brake\\Brake-499991.pt"
+                ]
+            },
+            {
+                "steps": 999994,
+                "file_path": "results\\test019\\Brake\\Brake-999994.onnx",
+                "reward": 0.23154698989608072,
+                "creation_time": 1656959644.2636735,
+                "auxillary_file_paths": [
+                    "results\\test019\\Brake\\Brake-999994.pt"
+                ]
+            },
+            {
+                "steps": 1000122,
+                "file_path": "results\\test019\\Brake\\Brake-1000122.onnx",
+                "reward": 0.23154698989608072,
+                "creation_time": 1656959644.3152132,
+                "auxillary_file_paths": [
+                    "results\\test019\\Brake\\Brake-1000122.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000122,
+            "file_path": "results\\test019\\Brake.onnx",
+            "reward": 0.23154698989608072,
+            "creation_time": 1656959644.3152132,
+            "auxillary_file_paths": [
+                "results\\test019\\Brake\\Brake-1000122.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "Brake": {
+        "checkpoints": [
+            {
+                "steps": 499963,
+                "file_path": "results\\test005\\Brake\\Brake-499963.onnx",
+                "reward": 10.0,
+                "creation_time": 1656851104.4388585,
+                "auxillary_file_paths": [
+                    "results\\test005\\Brake\\Brake-499963.pt"
+                ]
+            },
+            {
+                "steps": 500018,
+                "file_path": "results\\test005\\Brake\\Brake-500018.onnx",
+                "reward": 10.0,
+                "creation_time": 1656851104.4798903,
+                "auxillary_file_paths": [
+                    "results\\test005\\Brake\\Brake-500018.pt"
+                ]
+            },
+            {
+                "steps": 500018,
+                "file_path": "results\\test005\\Brake\\Brake-500018.onnx",
+                "reward": null,
+                "creation_time": 1656851511.2997015,
+                "auxillary_file_paths": [
+                    "results\\test005\\Brake\\Brake-500018.pt"
+                ]
+            },
+            {
+                "steps": 999978,
+                "file_path": "results\\test005\\Brake\\Brake-999978.onnx",
+                "reward": 10.0,
+                "creation_time": 1656852072.525624,
+                "auxillary_file_paths": [
+                    "results\\test005\\Brake\\Brake-999978.pt"
+                ]
+            },
+            {
+                "steps": 1000106,
+                "file_path": "results\\test005\\Brake\\Brake-1000106.onnx",
+                "reward": 10.0,
+                "creation_time": 1656852072.5706584,
+                "auxillary_file_paths": [
+                    "results\\test005\\Brake\\Brake-1000106.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000106,
+            "file_path": "results\\test005\\Brake.onnx",
+            "reward": 10.0,
+            "creation_time": 1656852072.5706584,
+            "auxillary_file_paths": [
+                "results\\test005\\Brake\\Brake-1000106.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

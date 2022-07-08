@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1656866262",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Documents\\Desenvolupament\\Unity Folder\\Unity\\Machine Learning Tutorial CodeMonkey\\venv\\Scripts\\mlagents-learn config/braking5.yaml --run-id=test006 --force",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1656866263"
+    },
+    "total": 1.4035260999999999,
+    "count": 1,
+    "self": 0.005619599999999725,
+    "children": {
+        "run_training.setup": {
+            "total": 0.10959209999999997,
+            "count": 1,
+            "self": 0.10959209999999997
+        },
+        "TrainerController.start_learning": {
+            "total": 1.2883144000000002,
+            "count": 1,
+            "self": 9.340000000013227e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 1.2882044000000001,
+                    "count": 1,
+                    "self": 1.2882044000000001
+                },
+                "TrainerController._save_models": {
+                    "total": 1.6599999999922233e-05,
+                    "count": 1,
+                    "self": 1.6599999999922233e-05
+                }
+            }
+        }
+    }
+}
